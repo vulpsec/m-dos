@@ -5,7 +5,7 @@ Bir Dos Scripti
 ## İndirme 
 
 ```bash
-git clone 'https://github.com/morbius-os/m-dos
+git clone https://github.com/morbius-os/m-dos
 
 cd m-dos
 
