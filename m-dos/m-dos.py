@@ -60,13 +60,7 @@ print('\n')
 
 target = str(input(f'''{Beyaz}Lütfen Hedefin IP Adresini Giriniz (Eğer Domain'e Dos Atacaksanız {Yeşil}"Domain"{Beyaz} Yazınız): {Yeşil}'''))
 
-format = input(f'{Beyaz}Site {Yeşil}"https"{Beyaz} Mi {Yeşil}"http"{Beyaz} Mi Kullanıyor: {Yeşil}')
-while not format == 'http' or format == 'https':
-    print(f'{Kırmızı}Lütfen http Veya https Hariç Birşe,y Yazmayımız.')
-    format = input(f'{Beyaz}Site {Yeşil}"https"{Beyaz} Mi {Yeşil}"http"{Beyaz} Mi Kullanıyor: {Yeşil}')
-    
-uzantı = input(f'{Beyaz}Sitenin Uzantısı ({Yeşil}.net/.com/.xyz{Beyaz} v.b.): {Yeşil}')
-
+alilanz = ""
 if target == "Domain" or target == 'domain':
     alilanz = 'doktor eda'
 
