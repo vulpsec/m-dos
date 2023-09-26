@@ -70,7 +70,7 @@ if target == "Domain" or target == 'domain':
     target = socket.gethostbyname(domain)
 
 if alilanz == 'doktor eda':
-    siteeee = site_yaz(target)
+    siteeee = target
 else:
     siteeee = target
     
