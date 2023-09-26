@@ -65,12 +65,12 @@ if target == "Domain" or target == 'domain':
     alilanz = 'doktor eda'
 
 if target == "Domain" or target == 'domain':
-    domain = input(f"{Beyaz}Lütfen Domain'i Subdomain ile birlikte giriniz (örnek:https://example.com ise example şeklinde giriniz): {Yeşil}")
+    domain = input(f"{Beyaz}Lütfen Domain'i Subdomain ile birlikte giriniz (örnek:https:/example.com ise example.com şeklinde giriniz): {Yeşil}")
     print('\n')
     target = socket.gethostbyname(domain)
 
 if alilanz == 'doktor eda':
-    siteeee = site_yaz(format)
+    siteeee = site_yaz(target)
 else:
     siteeee = target
     
