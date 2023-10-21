@@ -9,6 +9,8 @@ git clone https://github.com/morbius-os/m-dos
 
 cd m-dos
 
+cd m-dos
+
 python3 m-dos.py
 ```
 
