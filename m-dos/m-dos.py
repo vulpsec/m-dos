@@ -50,7 +50,7 @@ def site_kontrol(site,http_formatı,uzantısı):
     if cevap == '<Response [200]>':
         pass
     else:
-        return '{}SİTE ÇÖKTÜ'.format(Kırmızı)
+        return '{}HEDEF ÇÖKTÜ: {}{}{}'.format(Kırmızı,AltıÇizili,URL,Bitir)
 
 def site_yaz(ğ,çş,ö):
     return çş+'://'+ğ+ö
